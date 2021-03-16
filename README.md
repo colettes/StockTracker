@@ -1,7 +1,7 @@
 # Mobile App Template
 
 ## Description:
-This is a simple app that uses static data to create a list of stocks with information from the Alpha Advantage API. It is an exploration on API data processing along with app structuring. 
+This is a simple app that uses static data to create a list of stocks with information from the Alpha Advantage API. It is an exploration on API data processing along with app structure and design. 
 
 ### API Features That I Used:
 
