@@ -3,7 +3,7 @@
 ## Description:
 This is a simple app that uses a static data to create a list of stocks with information from the Alpha Advantage API. It is an exploration on API data processing along with app structure. 
 
-### API Features:
+### API Features That I Used:
 
 #### Tab Bar Controller: 
 This was first implemented by Dewone, but I added a tab to edit profile. Further, I overrode the viewDidAppear() function on each view controller connected to the tab bar so the stock list would be up-to-date when the user changes their stock style preference in Edit Profile, as well as when the Watchlist has stocks added or deleted. 
