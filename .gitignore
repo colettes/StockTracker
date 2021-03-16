@@ -92,5 +92,5 @@ fastlane/test_output
 iOSInjectionProject/
 
 # Test
-stockTrackerTests
-stockTrackerUITests
+stockTrackerTests/
+stockTrackerUITests/
