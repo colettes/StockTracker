@@ -21,5 +21,5 @@ Not demonstrated in class, the URLSession is utilized on the detail view. It tak
 * [Xcode](http://docs.phonegap.com/en/3.5.0/guide_platforms_ios_index.md.html#iOS%20Platform%20Guide)
 
 ## Authors:
-Created with * [Dewone Westerfield](https://github.com/DewoneW536)
+Created with [Dewone Westerfield](https://github.com/DewoneW536)
 
