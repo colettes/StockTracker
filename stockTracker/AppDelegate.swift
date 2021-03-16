@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  stockTracker
 //
-//  Created by Dewone Westerfield on 3/7/21.
 //
 
 import UIKit

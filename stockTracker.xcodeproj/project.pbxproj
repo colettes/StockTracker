@@ -15,6 +15,15 @@
 		5340E6B525F59CC3006D2503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5340E6B325F59CC3006D2503 /* LaunchScreen.storyboard */; };
 		5340E6C025F59CC3006D2503 /* stockTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5340E6BF25F59CC3006D2503 /* stockTrackerTests.swift */; };
 		5340E6CB25F59CC3006D2503 /* stockTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5340E6CA25F59CC3006D2503 /* stockTrackerUITests.swift */; };
+		5361D63F25F81F0C0039D104 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5361D63E25F81F0C0039D104 /* UserProfileViewController.swift */; };
+		5361D64925F88E780039D104 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5361D64825F88E780039D104 /* DetailViewController.swift */; };
+		5361D65825F8AC7F0039D104 /* SuggestedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5361D65725F8AC7F0039D104 /* SuggestedListViewController.swift */; };
+		5361D66025F8AD020039D104 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5361D65F25F8AD020039D104 /* WatchListViewController.swift */; };
+		5380D1A925FC692300AFA120 /* SearchStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5380D1A825FC692300AFA120 /* SearchStockViewController.swift */; };
+		53A79ECB25FE983C00A45BD0 /* SearchResultsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A79ECA25FE983C00A45BD0 /* SearchResultsTableTableViewController.swift */; };
+		53BF192425F74AF900CEF78B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF192325F74AF900CEF78B /* UserProfile.swift */; };
+		FBF6E1BD25FC826200894148 /* options.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6E1BC25FC826200894148 /* options.swift */; };
+		FBF6E1E425FD65AA00894148 /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6E1E325FD65AA00894148 /* EditUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		5340E6C625F59CC3006D2503 /* stockTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stockTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5340E6CA25F59CC3006D2503 /* stockTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockTrackerUITests.swift; sourceTree = "<group>"; };
 		5340E6CC25F59CC3006D2503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5361D63E25F81F0C0039D104 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		5361D64825F88E780039D104 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5361D65725F8AC7F0039D104 /* SuggestedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedListViewController.swift; sourceTree = "<group>"; };
+		5361D65F25F8AD020039D104 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		5380D1A825FC692300AFA120 /* SearchStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStockViewController.swift; sourceTree = "<group>"; };
+		53A79ECA25FE983C00A45BD0 /* SearchResultsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableTableViewController.swift; sourceTree = "<group>"; };
+		53BF192325F74AF900CEF78B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		FBF6E1BC25FC826200894148 /* options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = options.swift; sourceTree = "<group>"; };
+		FBF6E1E325FD65AA00894148 /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,22 @@
 		5340E6A725F59CC3006D2503 /* stockTracker */ = {
 			isa = PBXGroup;
 			children = (
+				5340E6AE25F59CC3006D2503 /* Main.storyboard */,
 				5340E6A825F59CC3006D2503 /* AppDelegate.swift */,
 				5340E6AA25F59CC3006D2503 /* SceneDelegate.swift */,
 				5340E6AC25F59CC3006D2503 /* ViewController.swift */,
-				5340E6AE25F59CC3006D2503 /* Main.storyboard */,
+				5361D63E25F81F0C0039D104 /* UserProfileViewController.swift */,
+				FBF6E1E325FD65AA00894148 /* EditUserViewController.swift */,
+				5361D65725F8AC7F0039D104 /* SuggestedListViewController.swift */,
+				5361D64825F88E780039D104 /* DetailViewController.swift */,
+				5361D65F25F8AD020039D104 /* WatchListViewController.swift */,
+				53BF192325F74AF900CEF78B /* UserProfile.swift */,
+				FBF6E1BC25FC826200894148 /* options.swift */,
+				5380D1A825FC692300AFA120 /* SearchStockViewController.swift */,
+				5340E6B625F59CC3006D2503 /* Info.plist */,
 				5340E6B125F59CC3006D2503 /* Assets.xcassets */,
 				5340E6B325F59CC3006D2503 /* LaunchScreen.storyboard */,
-				5340E6B625F59CC3006D2503 /* Info.plist */,
+				53A79ECA25FE983C00A45BD0 /* SearchResultsTableTableViewController.swift */,
 			);
 			path = stockTracker;
 			sourceTree = "<group>";
@@ -258,9 +285,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF6E1E425FD65AA00894148 /* EditUserViewController.swift in Sources */,
 				5340E6AD25F59CC3006D2503 /* ViewController.swift in Sources */,
+				5361D65825F8AC7F0039D104 /* SuggestedListViewController.swift in Sources */,
+				5361D63F25F81F0C0039D104 /* UserProfileViewController.swift in Sources */,
+				53BF192425F74AF900CEF78B /* UserProfile.swift in Sources */,
 				5340E6A925F59CC3006D2503 /* AppDelegate.swift in Sources */,
+				FBF6E1BD25FC826200894148 /* options.swift in Sources */,
+				5361D64925F88E780039D104 /* DetailViewController.swift in Sources */,
+				5380D1A925FC692300AFA120 /* SearchStockViewController.swift in Sources */,
 				5340E6AB25F59CC3006D2503 /* SceneDelegate.swift in Sources */,
+				5361D66025F8AD020039D104 /* WatchListViewController.swift in Sources */,
+				53A79ECB25FE983C00A45BD0 /* SearchResultsTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
