@@ -1,4 +1,4 @@
-# Mobile App Template
+# Stock Tracker App
 
 ## Description:
 This is a simple app that uses static data to create a list of stocks with information from the Alpha Advantage API. It is an exploration on API data processing along with app structure and design. 
